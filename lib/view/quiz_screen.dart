@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../state/quiz-provider.dart';
 
 class QuizScreen extends StatefulWidget {
-
   const QuizScreen({super.key});
 
   @override
@@ -21,13 +20,12 @@ class _QuizScreenState extends State<QuizScreen> {
     List<Quiz> allQuestions = quizProvider.getAllQuizQuestions;
     int activeQuestionCount = quizProvider.getActiveQuestionCount;
 
+    // Navigate to results screen if all questions are answered
     if (activeQuestionCount >= allQuestions.length) {
       Future.microtask(() {
-        Navigator.pushNamed(context, '/result-screen');
+        Navigator.pushReplacementNamed(context, '/result-screen');
       });
-    }
-
-    if (activeQuestionCount >= allQuestions.length) {
+      // Return an empty container or placeholder while waiting for navigation
       return const Scaffold(
         body: Center(
           child: CircularProgressIndicator(),
@@ -35,15 +33,15 @@ class _QuizScreenState extends State<QuizScreen> {
       );
     }
 
-
+    // Display the current question
     Quiz quiz = allQuestions[activeQuestionCount];
     return SafeArea(
       child: Scaffold(
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment:MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            QuestionCard(question: quiz)
+            QuestionCard(question: quiz),
           ],
         ),
       ),

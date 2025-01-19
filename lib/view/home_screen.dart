@@ -14,50 +14,48 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  QuizInfo? _quizData;
+  bool _isLoading = true;
 
-  QuizInfo? _quizData ;
-  bool _isLoading = true ;
-
-  void onClick(){
-      Navigator.pushNamed(context, '/quiz-screen');
+  void onClick() {
+    Navigator.pushNamed(context, '/quiz-screen');
   }
 
-  void _resetQuiz(){
-    final quizProvider = Provider.of<QuizProvider>(context,listen: false);
+  void _resetQuiz() {
+    final quizProvider = Provider.of<QuizProvider>(context, listen: false);
     quizProvider.resetQuiz();
   }
 
-
-
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    _resetQuiz();
-    _loadQuizData();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _resetQuiz();
+      _loadQuizData();
+    });
   }
 
-  Future<void> _loadQuizData() async{
-    try{
+  Future<void> _loadQuizData() async {
+    try {
       ApiQuizService api = ApiQuizService();
       QuizInfo fetchQuiz = await api.fetchQuizData();
 
       if (!mounted) return;
 
-      final quizProvider = Provider.of<QuizProvider>(context,listen: false);
+      final quizProvider = Provider.of<QuizProvider>(context, listen: false);
       quizProvider.addAllQuizQuestions(fetchQuiz.questions);
+      quizProvider.addPoints(
+          fetchQuiz.wrongAnswerPoint, fetchQuiz.correctAnswerPoint);
 
-
-      quizProvider.addPoints(fetchQuiz.wrongAnswerPoint, fetchQuiz.correctAnswerPoint);
-
-      setState(() {
-        _quizData = fetchQuiz;
-        _isLoading = false;
-      });
-
-    }catch(e){
-      if(kDebugMode){
-        print("Error fetching quiz data : $e");
+      if (mounted) {
+        setState(() {
+          _quizData = fetchQuiz;
+          _isLoading = false;
+        });
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print("Error fetching quiz data: $e");
       }
       if (mounted) {
         setState(() {
@@ -67,12 +65,10 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
+      appBar: AppBar(
         backgroundColor: Colors.green[300],
         centerTitle: true,
         title: const Text('Mind Spark'),
@@ -81,16 +77,23 @@ class _HomeScreenState extends State<HomeScreen> {
         child: _isLoading
             ? const Center(child: CircularProgressIndicator())
             : _quizData == null
-              ? const Center(child: Text('Failed to load quiz data'))
-              : SizedBox(
-                width: double.infinity,
-                child: Column(
-                          crossAxisAlignment : CrossAxisAlignment.center,
-                          children: [
-                            QuizCard(title: _quizData!.title, desc: _quizData!.topic, onClick: onClick, duration: _quizData!.duration.toString(), correctAnswerPoint: _quizData!.correctAnswerPoint, wrongAnswerPoint: _quizData!.wrongAnswerPoint,)
-                          ],
-                        ),
-              )
+            ? const Center(child: Text('Failed to load quiz data'))
+            : SizedBox(
+          width: double.infinity,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              QuizCard(
+                title: _quizData!.title,
+                desc: _quizData!.topic,
+                onClick: onClick,
+                duration: _quizData!.duration.toString(),
+                correctAnswerPoint: _quizData!.correctAnswerPoint,
+                wrongAnswerPoint: _quizData!.wrongAnswerPoint,
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
