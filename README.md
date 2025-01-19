@@ -8,13 +8,13 @@ Mind Spark is a dynamic and interactive Flutter-based quiz application that comb
 
 ## **Features**
 - **API Integration**: Fetch quiz data dynamically using the Dio package.
-- **Gamification**:
-    - **Audio Feedback**: Play positive or negative audio clips for correct and incorrect answers using `just_audio`.
-    - **Haptic Feedback**: Provide tactile responses for user interactions (light impact for correct answers and heavy impact for wrong ones).
-- **Screens**:
-    - **Home Screen**: Displays quiz details and allows users to start the quiz.
-    - **Quiz Screen**: Presents questions with multiple-choice answers and provides immediate feedback.
-    - **Result Screen**: Displays the user's score and allows restarting the quiz.
+- **Gamification**:  
+  - **Audio Feedback**: Play positive or negative audio clips for correct and incorrect answers using `just_audio`.  
+  - **Haptic Feedback**: Provide tactile responses for user interactions (light impact for correct answers and heavy impact for wrong ones).
+- **Screens**:  
+  - **Home Screen**: Displays quiz details and allows users to start the quiz.  
+  - **Quiz Screen**: Presents questions with multiple-choice answers and provides immediate feedback.  
+  - **Result Screen**: Displays the user's score and allows restarting the quiz.
 - **Clean Architecture**: Implements the **MVC pattern** to separate concerns and ensure modular code.
 
 ---
@@ -22,17 +22,14 @@ Mind Spark is a dynamic and interactive Flutter-based quiz application that comb
 ## **Screenshots**
 _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Result Screen)._
 
-## Screenshots
-| Screen Description                  | Screenshot                                                                 |
-|-------------------------------------|----------------------------------------------------------------------------|
-| Home Screen                         | ![Home Screen](assets/screenshots/home.jpg "Home Screen")       |
-| Question Screen (Empty Selection)   | ![Question Screen](assets/screenshots/option.jpg "Question Screen") |
-| Correct Option Selected             | ![Correct Option](assets/screenshots/correct_answer.jpg "Correct Option") |
-| Wrong Option Selected               | ![Wrong Option](assets/screenshots/wrong_answer.jpg "Wrong Option")     |
-| Result Screen                       | ![Result Screen](assets/screenshots/result_screen.jpg "Result Screen")   |
-| Result Screen (After Retaking Quiz) | ![Result Screen (Retake)](assets/screenshots/result2.jpg "Result Screen (Retake)") |
-
-
+| Screen Description                                    | Screenshot                                                                                                                               | Width | Height |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|
+| Home Screen (Replace with yours)             | ![Home Screen](https://drive.google.com/file/d/11YT8FeAdmSUnGkp-LcMaA-JJ-rmLvmEH/view?usp=sharing)                                                                | 600   | 400   |
+| Question Screen (Empty Selection) (Replace with yours) | ![Question Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                | 600   | 400   |
+| Correct Option Selected (Replace with yours)           | ![Correct Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Wrong Option Selected (Replace with yours)             | ![Wrong Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Result Screen (Replace with yours)                      | ![Result Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Result Screen (After Retaking Quiz) (Replace with yours) | ![Result Screen (Retake)](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                              | 600   | 400   |
 
 ---
 
@@ -120,18 +117,18 @@ The app fetches quiz data from a remote API using the Dio package. Example API r
 
 ## **Key Functionalities**
 
-1. **Home Screen**
-    - Displays quiz information (title, topic, duration, points for correct and wrong answers).
-    - Button to start the quiz.
+1. **Home Screen**  
+   - Displays quiz information (title, topic, duration, points for correct and wrong answers).  
+   - Button to start the quiz.
 
-2. **Quiz Screen**
-    - Displays questions with multiple-choice options.
-    - Provides immediate feedback (audio and haptics) on answers.
-    - Automatically navigates to the next question.
+2. **Quiz Screen**  
+   - Displays questions with multiple-choice options.
+   - Provides immediate feedback (audio and haptics) on answers.
+   - Automatically navigates to the next question.
 
-3. **Result Screen**
-    - Displays the final score and total number of questions.
-    - Button to retake the quiz.
+3. **Result Screen**  
+   - Displays the final score and total number of questions.
+   - Button to retake the quiz.
 
 ---
 
