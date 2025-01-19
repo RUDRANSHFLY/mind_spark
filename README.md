@@ -22,35 +22,42 @@ Mind Spark is a dynamic and interactive Flutter-based quiz application that comb
 ## **Screenshots**
 _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Result Screen)._
 
-## Screenshots
-## Screenshots
 
-<div style="display: flex; overflow-x: auto; white-space: nowrap;">
-  <div style="display: inline-block; margin-right: 10px;">
+
+<div style="display: flex; justify-content: space-between; overflow-x: auto; width: 100%;">
+
+  <div style="flex: 0 0 auto; margin-right: 10px;">
     <img src="assets/screenshots/home.jpg" alt="Home Screen" width="200" height="auto">
     <p>Home Screen</p>
   </div>
-  <div style="display: inline-block; margin-right: 10px;">
+
+  <div style="flex: 0 0 auto; margin-right: 10px;">
     <img src="assets/screenshots/option.jpg" alt="Question Screen" width="200" height="auto">
     <p>Question Screen</p>
   </div>
-  <div style="display: inline-block; margin-right: 10px;">
+
+  <div style="flex: 0 0 auto; margin-right: 10px;">
     <img src="assets/screenshots/correct_answer.jpg" alt="Correct Option" width="200" height="auto">
     <p>Correct Option</p>
   </div>
-  <div style="display: inline-block; margin-right: 10px;">
+
+  <div style="flex: 0 0 auto; margin-right: 10px;">
     <img src="assets/screenshots/wrong_answer.jpg" alt="Wrong Option" width="200" height="auto">
     <p>Wrong Option</p>
   </div>
-  <div style="display: inline-block; margin-right: 10px;">
+
+  <div style="flex: 0 0 auto; margin-right: 10px;">
     <img src="assets/screenshots/result_screen.jpg" alt="Result Screen" width="200" height="auto">
     <p>Result Screen</p>
   </div>
-  <div style="display: inline-block;">
+
+  <div style="flex: 0 0 auto;">
     <img src="assets/screenshots/result2.jpg" alt="Result Screen (Retake)" width="200" height="auto">
     <p>Result Screen (Retake)</p>
   </div>
+
 </div>
+
 
 
 
