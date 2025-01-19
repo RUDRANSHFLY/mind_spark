@@ -24,7 +24,7 @@ _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Resul
 
 | Screen Description                                    | Screenshot                                                                                                                               | Width | Height |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|
-| Home Screen (Replace with yours)             | ![Home Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                | 600   | 400   |
+| Home Screen (Replace with yours)             | ![Home Screen](https://drive.google.com/file/d/11YT8FeAdmSUnGkp-LcMaA-JJ-rmLvmEH/view?usp=sharing)                                                                | 600   | 400   |
 | Question Screen (Empty Selection) (Replace with yours) | ![Question Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                | 600   | 400   |
 | Correct Option Selected (Replace with yours)           | ![Correct Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
 | Wrong Option Selected (Replace with yours)             | ![Wrong Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
