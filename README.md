@@ -24,39 +24,19 @@ _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Resul
 
 
 
+## Screenshots
+
 <div style="display: flex; justify-content: space-between; overflow-x: auto; width: 100%;">
 
-  <div style="flex: 0 0 auto; margin-right: 10px;">
-    <img src="assets/screenshots/home.jpg" alt="Home Screen" width="200" height="auto">
-    <p>Home Screen</p>
-  </div>
-
-  <div style="flex: 0 0 auto; margin-right: 10px;">
-    <img src="assets/screenshots/option.jpg" alt="Question Screen" width="200" height="auto">
-    <p>Question Screen</p>
-  </div>
-
-  <div style="flex: 0 0 auto; margin-right: 10px;">
-    <img src="assets/screenshots/correct_answer.jpg" alt="Correct Option" width="200" height="auto">
-    <p>Correct Option</p>
-  </div>
-
-  <div style="flex: 0 0 auto; margin-right: 10px;">
-    <img src="assets/screenshots/wrong_answer.jpg" alt="Wrong Option" width="200" height="auto">
-    <p>Wrong Option</p>
-  </div>
-
-  <div style="flex: 0 0 auto; margin-right: 10px;">
-    <img src="assets/screenshots/result_screen.jpg" alt="Result Screen" width="200" height="auto">
-    <p>Result Screen</p>
-  </div>
-
-  <div style="flex: 0 0 auto;">
-    <img src="assets/screenshots/result2.jpg" alt="Result Screen (Retake)" width="200" height="auto">
-    <p>Result Screen (Retake)</p>
-  </div>
+  <img src="assets/screenshots/home.jpg" alt="Home Screen" width="200" style="margin-right: 10px;">
+  <img src="assets/screenshots/option.jpg" alt="Question Screen" width="200" style="margin-right: 10px;">
+  <img src="assets/screenshots/correct_answer.jpg" alt="Correct Option" width="200" style="margin-right: 10px;">
+  <img src="assets/screenshots/wrong_answer.jpg" alt="Wrong Option" width="200" style="margin-right: 10px;">
+  <img src="assets/screenshots/result_screen.jpg" alt="Result Screen" width="200" style="margin-right: 10px;">
+  <img src="assets/screenshots/result2.jpg" alt="Result Screen (Retake)" width="200">
 
 </div>
+
 
 
 
