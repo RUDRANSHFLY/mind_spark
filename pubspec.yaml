@@ -1,0 +1,22 @@
+name: mind_spark
+description: "a new quiz app"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.4
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  dio: ^5.7.0
+  just_audio: ^0.9.43
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/sound/right.mp3
+     - assets/sound/wrong.mp3

@@ -1,0 +1,92 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+*.tmp
+*.seed
+*.bak
+*.pid
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional)
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# macOS
+macos/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+/macos/Flutter/GeneratedPluginRegistrant.*
+*.xcworkspace
+DerivedData/
+*.plist
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/FlutterPluginRegistrant/GeneratedPluginRegistrant.*
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+.android/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+android/app/google-services.json
+*.keystore
+android/app/src/debug/
+android/app/src/profile/
+android/app/src/release/
+
+# Windows
+windows/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+*.exe
+
+# Linux
+linux/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+web/.idea/
+web/canvaskit/
+
+# Generated files
+*.lock
+*.map.json
+*.symbols
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Obfuscation related
+app.*.symbols
+app.*.map.json
+
+# Symbolication related
+app.*.symbols
