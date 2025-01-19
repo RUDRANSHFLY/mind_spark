@@ -31,7 +31,7 @@ class _QuestionCardState extends State<QuestionCard> {
     final quizProvider = Provider.of<QuizProvider>(context, listen: false);
 
 
-    Future.delayed(const Duration(seconds: 1), () async {
+    Future.delayed(const Duration(seconds: 2), () async {
       if (isOptionCorrect) {
         await player.setAsset('assets/sound/right.mp3');
         player.play();
