@@ -24,14 +24,35 @@ _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Resul
 
 ## Screenshots
 
-| Screen Description                  | Screenshot                                                                 |
-|-------------------------------------|----------------------------------------------------------------------------|
-| Home Screen                         | ![Home Screen](assets/screenshots/home.jpg "Home Screen")       |
-| Question Screen (Empty Selection)   | ![Question Screen](assets/screenshots/option.jpg "Question Screen") |
-| Correct Option Selected             | ![Correct Option](assets/screenshots/correct_answer.jpg "Correct Option") |
-| Wrong Option Selected               | ![Wrong Option](assets/screenshots/wrong_answer.jpg "Wrong Option")     |
-| Result Screen                       | ![Result Screen](assets/screenshots/result_screen.jpg "Result Screen")   |
-| Result Screen (After Retaking Quiz) | ![Result Screen (Retake)](assets/screenshots/result2.jpg "Result Screen (Retake)") |
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div style="margin-right: 10px;">
+    <img src="assets/screenshots/home.jpg" alt="Home Screen" width="200" height="auto">
+    <p>Home Screen</p>
+  </div>
+  <div style="margin-right: 10px;">
+    <img src="assets/screenshots/option.jpg" alt="Question Screen" width="200" height="auto">
+    <p>Question Screen</p>
+  </div>
+  <div style="margin-right: 10px;">
+    <img src="assets/screenshots/correct_answer.jpg" alt="Correct Option" width="200" height="auto">
+    <p>Correct Option</p>
+  </div>
+  <div style="margin-right: 10px;">
+    <img src="assets/screenshots/wrong_answer.jpg" alt="Wrong Option" width="200" height="auto">
+    <p>Wrong Option</p>
+  </div>
+  <div style="margin-right: 10px;">
+    <img src="assets/screenshots/result_screen.jpg" alt="Result Screen" width="200" height="auto">
+    <p>Result Screen</p>
+  </div>
+  <div>
+    <img src="assets/screenshots/result2.jpg" alt="Result Screen (Retake)" width="200" height="auto">
+    <p>Result Screen (Retake)</p>
+  </div>
+</div>
+
 
 ---
 
