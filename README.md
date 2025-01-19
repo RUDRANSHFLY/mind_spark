@@ -22,6 +22,15 @@ Mind Spark is a dynamic and interactive Flutter-based quiz application that comb
 ## **Screenshots**
 _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Result Screen)._
 
+| Screen Description                                    | Screenshot                                                                                                                               | Width | Height |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|
+| Home Screen (Replace with yours)             | ![Home Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                | 600   | 400   |
+| Question Screen (Empty Selection) (Replace with yours) | ![Question Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                | 600   | 400   |
+| Correct Option Selected (Replace with yours)           | ![Correct Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Wrong Option Selected (Replace with yours)             | ![Wrong Option](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Result Screen (Replace with yours)                      | ![Result Screen](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                                  | 600   | 400   |
+| Result Screen (After Retaking Quiz) (Replace with yours) | ![Result Screen (Retake)](https://drive.google.com/drive/u/3/folders/115JMevEHOY-8mYDY8M9O_XsqGr1cmr8J)                                                              | 600   | 400   |
+
 ---
 
 ## **Technologies Used**
