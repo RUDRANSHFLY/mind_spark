@@ -19,13 +19,14 @@ Mind Spark is a dynamic and interactive Flutter-based quiz application that comb
 
 ---
 
+## Demo Videos
+
+- [Home Screen Demo](https://drive.google.com/file/d/12GxXopO62vvTmtM2uWj3GPocMKYS77b5/view?usp=sharing)
+- [Quiz Workflow Demo](https://drive.google.com/file/d/12HYEtsEDLCmY53fhyIkN79-_sHrPyhVE/view?usp=sharing)
+
+
 ## **Screenshots**
 _Include screenshots of your app here (e.g., Home Screen, Quiz Screen, and Result Screen)._
-
-
-
-## Screenshots
-
 <div style="display: flex; justify-content: space-between; overflow-x: auto; width: 100%;">
 
   <img src="assets/screenshots/home.jpg" alt="Home Screen" width="200" style="margin-right: 10px;">
